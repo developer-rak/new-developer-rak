@@ -3,28 +3,28 @@ import React from 'react'
 
 const projects = [
   {
-    title: 'Weather App',
-    mockup: '/mockups/weatherAppMock.png',
-    live: 'https://weather-app.paytonpierce.dev',
-    code: 'https://github.com/paytonjewell/react-weather-app-v2'
+    title: 'Youtube Clone',
+    mockup: '/mockups/youtubeClone.png',
+    live: 'https://rak-youtubeclone.netlify.app/',
+    code: 'https://github.com/developer-rak/youtube_clone_app'
   },
   {
-    title: 'Portfolio Template',
-    mockup: '/mockups/portfolioTemplateMock.png',
-    live: 'https://reactportfoliotemplate.paytonpierce.dev/',
-    code: 'https://github.com/paytonjewell/ReactPortfolioTemplate'
+    title: 'Gericht Restaurant',
+    mockup: '/mockups/gerichtRestaurant.png',
+    live: 'https://rak-gerichtrestaurant.netlify.app/',
+    code: 'https://github.com/developer-rak/gerich_restaurant'
   },
   {
-    title: 'Alarm Clock',
-    mockup: '/mockups/clockMock.png',
-    live: 'https://darkmodeclock.paytonpierce.dev/',
-    code: 'https://github.com/paytonjewell/Analog-Clock-With-Darkmode-Toggle'
+    title: 'GPT3',
+    mockup: '/mockups/gpt.png',
+    live: 'https://rak-gpt3.netlify.app/',
+    code: 'https://github.com/developer-rak/gpt3'
   },
   {
-    title: 'To-Do List',
-    mockup: '/mockups/todoMock.png',
-    live: 'https://todolist.paytonpierce.dev/',
-    code: 'https://github.com/paytonjewell/To-Do-List'
+    title: 'PinkStore eCommerce Web',
+    mockup: '/mockups/pinkStore.png',
+    live: 'https://pinkstore-developer-rak.netlify.app/',
+    code: 'https://github.com/developer-rak/PinkStore-eCommerceWebsite'
   },
 ]
 
@@ -32,7 +32,7 @@ const Portfolio = () => {
   return (
     <div className="text-center">
       <p>Open Source Contributions:</p>
-      <Link className="link link-primary" href="https://github.com/danielcranney/profileme-dev/pull/34">ProfileMe.dev</Link>
+      <Link className="link link-primary" href="https://github.com/developer-rak?page=1&tab=repositories">developer-rak.github</Link>
       <div className="flex flex-wrap items-start mb-10">
       {projects.map((project, index) => (
         <div key={index} className="md:w-1/2 flex flex-col items-center justify-center">
