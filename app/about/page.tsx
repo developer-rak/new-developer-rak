@@ -16,8 +16,9 @@ const About = () => {
       <FakeTerminalWindow>
         <Prompt content="cd aboutDeveloper-rak/" />
         <Prompt directory="/aboutDeveloper-rak" branch={true} content="cat README.md" />
-        <p>Hello there! I'm Developer-rak, a frontend dev <b>from Pakistan</b>, specializing in <b>React, NextJS, and Vue</b>. I've been working professionally as a developer for about 4 years now, and I'm currently focused on learning NodeJS/Express, PostgreSQL, and Prisma. Once I feel I've become fairly proficient in my preferred stack, I plan to expand my horizons to Java, Svelte, and eventually I'll probably end up giving into the Python craze.</p>
-        <p>Outside of my coding life, I live on a little homestead with 15 chickens and a vegetable garden. My husband, two cats, and I decided to leave our small city and pursue a quieter life, and I couldn't be happier that we did! We bought a farmhouse was built in 1942 and we are working hard to learn new skills to produce our own food.</p>
+        {/* <p>Hello there! I'm Developer-rak, a frontend dev <b>from Pakistan</b>, specializing in <b>React, NextJS, and Vue</b>. I've been working professionally as a developer for about 4 years now, and I'm currently focused on learning NodeJS/Express, PostgreSQL, and Prisma. Once I feel I've become fairly proficient in my preferred stack, I plan to expand my horizons to Java, Svelte, and eventually I'll probably end up giving into the Python craze.</p> */}
+        <p>Hello there! I'm Developer-rak, a frontend dev <b>from Pakistan</b>, with experience in <b>Html5, Css3, Sass, Javascript, Bootstrap, Reactjs, TypeScript and Firebase</b>. I've been working professionally on Front-end, and have 50+ repositories on Github. currently I'm focused on learning NodeJS/Express, GraphQL, and Nextjs. Once I feel I've become fairly proficient in my preferred stack, I plan to expand my horizons to MongoDB, Prisma, Svelte, and eventually I'll probably end up giving into the Python craze.</p>
+        {/* <p>Outside of my coding life, I live on a little homestead with 15 chickens and a vegetable garden. My husband, two cats, and I decided to leave our small city and pursue a quieter life, and I couldn't be happier that we did! We bought a farmhouse was built in 1942 and we are working hard to learn new skills to produce our own food.</p> */}
       </FakeTerminalWindow>
 
       {/* skills & tools */}
@@ -31,6 +32,7 @@ const About = () => {
           </ul>
           <ul className="md:text-right">
             <SkillList title="LibrariesAndFrameworks" items={skills.librariesFrameworks} />
+            <SkillList title="Tools" items={skills.tools} />
           </ul>
         </div>
       </FakeTerminalWindow>
@@ -41,10 +43,10 @@ const About = () => {
         <Prompt directory='/HobbiesAndInterests' branch={true} content="ls" />
         <ul>
           <li>📚 reading</li>
+          <li>🧑‍💻 coding</li>
           <li>🎬 movies</li>
-          <li>🧶 cricket</li>
-          <li>🐔 animals</li>
-          <li>👩🏻‍🌾 gardening</li>
+          <li>🏏 cricket</li>
+          <li>🎶 music</li>
         </ul>
       </FakeTerminalWindow>
     </div>

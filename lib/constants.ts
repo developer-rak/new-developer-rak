@@ -7,25 +7,28 @@ export const skills = {
       "npm / yarn",
       "Rest APIs / JSON",
       "React Hooks",
-      "fetch / axios"
+      "fetch / axios",
+      "Typescript",
+      "Firebase"
     ],
     librariesFrameworks: [
       "React 18",
-      "Vue 3",
-      "NextJS 14",
+      "Material UI",
+      "Sass",
+      "Bootstrap",
       "Tailwind",
-      "MaterialUI",
       "Ant Design",
-      "DaisyUI",
-      "Cypress",
-      "Jest",
-      "Redux",
-      "VueX"
     ],
     toolsOfTheTrade: [
       "Github",
       "Jira / Bitbucket",
-      "Strapi",
-      "Supabase"
+      "Netlify"
+    ],
+    tools: [
+      "Figma",
+      "Adobe XD",
+      "Adobe PS",
+      "Adobe Illustrator",
+      "Canva",
     ]
   };
