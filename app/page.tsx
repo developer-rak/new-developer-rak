@@ -12,7 +12,7 @@ const BulletPoints = () => {
     <ul className="space-y-1 text-xl text-center md:text-left">
       <li>🧀 based in Pakistan</li>
       <li>🎓 Graduated in BS-IT</li>
-      <li><a href="mailto:developerrak.99@gmail.com">📧 let's get in touch!</a></li>
+      <li><a href="mailto:developer.rak99@gmail.com">📧 let's get in touch!</a></li>
       <li>📝 download my <a className="link link-primary" href="/public/RashidAliWK.pdf" download="RashidAliWK.pdf">resume</a></li>
     </ul>
   )
@@ -20,7 +20,7 @@ const BulletPoints = () => {
 
 const WavingHand = () => {
   return (
-    <span className="animate-wave inline-block">🤚🏻</span>
+    <span className="animate-wave inline-block">🧑‍💻</span>
   )
 }
 
@@ -31,7 +31,7 @@ const socials = [
   },
   {
     icon: <FaLinkedin />,
-    href: "www.linkedin.com/in/developer-rak"
+    href: "https://www.linkedin.com/in/developer-rak/"
   },
   {
     icon: <FaXTwitter />,
