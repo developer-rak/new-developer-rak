@@ -1,3 +1,40 @@
+# 🧑‍💻 Personal Portfolio (24.9.20)
+
+### _Personal portfolio built using Next, react, typescript, tailwind and libraries, Hope you like it, tweak it and use it !!_
+
+### Link :link: https://developer-rak.netlify.app/
+
+## Images
+<img src='img/imgLight.png'/>
+<img src='img/imgDark.png'/>
+<img src='img/about.png'/>
+<img src='img/portfolio.png'/>
+
+## Responsive
+<img src='img/responsive.png'/>
+
+
+## Run Locally
+
+  - Run This command `https://github.com/developer-rak/new-developer-rak.git`
+  - You are now in the dev environment and you can play around
+
+## ⚙️ Tech Stack/Framework
+  - HTML5
+  - CSS3
+  - Next
+  - Next-themes
+  - React
+  - React-icons
+  - node
+  - daisyui
+  - eslint
+  - postcss
+  - tailwindcss
+  - typescript
+  - Netlify
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
@@ -27,10 +64,10 @@ To learn more about Next.js, take a look at the following resources:
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+You can check out [the Next.js GitHub repository](https://github.com/netlify/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## Deploy on Netlify
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The easiest way to deploy your Next.js app is to use the [Netlify Platform](https://app.netlify.com/teams/developer-rak/sites?page=1) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
