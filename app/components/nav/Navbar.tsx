@@ -15,7 +15,7 @@ export const navLinks = [
     mobile: true
   },
   {
-    label: 'portfolio',
+    label: 'myWork',
     href: '/portfolio',
     mobile: true
   },

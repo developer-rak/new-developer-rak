@@ -10,7 +10,7 @@ const ProfilePicture = () => {
 const BulletPoints = () => {
   return (
     <ul className="space-y-1 text-xl text-center md:text-left">
-      <li>🧀 based in Pakistan</li>
+      <li>🌏 based in Pakistan</li>
       <li>🎓 Graduated in BS-IT</li>
       <li><a href="mailto:developer.rak99@gmail.com">📧 let's get in touch!</a></li>
       <li>📝 download my <a className="link link-primary" href="/public/RashidAliWK.pdf" download="RashidAliWK.pdf">resume</a></li>
@@ -54,9 +54,9 @@ export default function Home() {
         </div>
         <BulletPoints />
         {/* socials */}
-        <ul className="flex justify-center text-3xl gap-10 mt-4">
+        <ul className="flex justify-center text-3xl gap-7 mt-4 md:justify-start">
           {socials.map((social, index) => (
-            <li key={index} className="hover:scale-125 hover:text-white transition-all ease-in-out"><Link href={social.href} target="_blank">{social.icon}</Link></li>
+            <li key={index} className="hover:scale-125 hover:text-purple-500 transition-all ease-in-out"><Link href={social.href} target="_blank">{social.icon}</Link></li>
           ))}
         </ul>
       </div>
