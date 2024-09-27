@@ -5,8 +5,8 @@
 ### Link :link: https://developer-rak.netlify.app/
 
 ## Images
-<img src='img/imgLight.png'/>
-<img src='img/imgDark.png'/>
+<img src='img/imgLight.jpg'/>
+<img src='img/imgDark.jpg'/>
 <img src='img/about.png'/>
 <img src='img/portfolio.png'/>
 
