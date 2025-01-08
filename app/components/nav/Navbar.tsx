@@ -25,7 +25,7 @@ export const navLinks = [
     mobile: false
   },
   {
-    label: 'blog',
+    label: 'FeaturedProjects',
     href: '/blog',
     mobile: true
   }
