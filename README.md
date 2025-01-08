@@ -1,6 +1,6 @@
 # 🧑‍💻 Personal Portfolio (24.9.20)
 
-### _Personal portfolio built using Next, react, typescript, tailwind and libraries, Hope you like it, tweak it and use it !!_
+### _Personal portfolio built using Next, typescript, tailwind and libraries, Hope you like it, tweak it and use it !!_
 
 ### Link :link: https://developer-rak.netlify.app/
 
